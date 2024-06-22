@@ -24,7 +24,7 @@ std::vector<std::wstring> loadWordsFromFile(const std::string& filename) {
         file.close();
     }
     else {
-        std::cerr << "Unable to open file: " << filename << std::endl;
+        std::cerr << "Unable to open text file: " << filename << std::endl;
     }
     return words;
 }
